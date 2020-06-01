@@ -28,8 +28,8 @@ export default function Hero(props) {
             className="mb-4 font-weight-light text-gray-500 w-75"
             style={{ lineHeight: "170%" }}
           >
-            We provide what you need to enjoy your holiday with family. Time to
-            make another memorable moments.
+            We provide what you need to enjoy your <br /> holiday with family.
+            Time to make another memorable moments.
           </p>
           <Button
             className="btn px-5"
