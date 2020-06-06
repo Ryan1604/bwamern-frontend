@@ -10,7 +10,7 @@ export default function Header(props) {
     return props.location.pathname === path ? " active" : "";
   };
 
-  if (props.isCenterd) {
+  if (props.isCentered) {
     return (
       <Fade>
         <header className="spacing-sm">
