@@ -12,9 +12,9 @@ export default function BookingInformation(props) {
           <div className="col-5 border-right py-5" style={{ paddingRight: 80 }}>
             <Fade delay={300}>
               <div className="card">
-                <figure className="img-wrapper" style={{ height: 70 }}>
+                <figure className="img-wrapper" style={{ height: 270 }}>
                   <img
-                    src={ItemDetails.imgUrl[0].url}
+                    src={ItemDetails.imageUrl[0].url}
                     alt={ItemDetails.name}
                     className="img-cover"
                   />

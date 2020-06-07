@@ -28,7 +28,7 @@ export default class DetailPage extends Component {
       <>
         <Header {...this.props}></Header>
         <Title breadcrumb={breadcrumb} data={itemDetails} />
-        <FeaturedImage data={itemDetails.imageUrls} />
+        <FeaturedImage data={itemDetails.imageUrl} />
         <section className="container">
           <div className="row">
             <div className="col-7 pr-5">
